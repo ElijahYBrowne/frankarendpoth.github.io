@@ -18,7 +18,14 @@
          1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 
   size = 32;
-
+  
+  document.getElementById("cbutton", onClick(function() {
+    if(map[18] == 1){
+      map[18] = 0
+    }  
+    
+  }));
+                                             
   buffer.canvas.width = 16 * size;
   buffer.canvas.height = 9 * size;
 
